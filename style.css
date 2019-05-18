@@ -1,148 +1,85 @@
 
-/* header */
-#Rectangle{
-position: absolute;
-width: 100%;
-height: 121px;
-left: 0px;
-top: 30px;
-
-background: #161515;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 37px;
-
-}
-
-/* Background */
-
 .back{
-position: absolute;
+display: block;
+margin: 0 auto;
 width: 100%;
-height: 100%;
-left: 0px;
-top: 30px;
 
-background: url("image/pic1.png");
+background: url("image/pic1.jpg");
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 42px;
-}
-
-
-
-/* Group */
-
-.logbutton{
-    position: absolute;
-    width: 65%;
-    height: 20%;
-    left: 193px;
-    top: 340px;
-    
-    background: rgba(148, 112, 112, 0.6);
-    border-radius: 47px;
+background-size: cover;
+border-radius:30px;
+height: 650px;
 
 }
 
-/* Sign up */
-
-.signup{
-    position: absolute;
-    width: 50%;
-    height:10%;
-    left: 63.4%;
-    top: 43.6%;
-    
-    font-family: Ranchers;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 160%;
-    
-    /* identical to box height */
-    
-    
-    color: #0E0E0F;
-    
-}
-
-.login{
-    position: absolute;
-width:50%;
-height:10%;
-left: 25.1%;
-top: 43.6;
-
-font-family: Ranchers;
-font-style: normal;
-font-weight: normal;
-font-size: 160%;
-
-/* identical to box height */
 
 
-color: #0E0E0F;
-
-}
 
 .logo{
+display:flex;
+align-items: center;
+flex-direction: column;
 
-    position: absolute;
-    width: 40%;
-    height: 20%x;
-    left: 50px;
-    top: 20px;
-    
-    font-family: Ranchers;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 45px;
-    /* identical to box height */
-    
-    
-    color: #F7EEF9;
-    
+
 
 }
 
 
 
-div.back{
+.logo img{
+height: 100px;
+width: auto;
+margin-top: 80px;
+}
+
+h3{
+color:#0CB0ED;
+text-align: center;
+
+}
+
+.sign{
+
+    text-align: center;
    
 }
 
+.sign input{
 
-
-/* Navigation */
-nav{
-    margin: 0;
-    overflow:hidden;
-    text-align: center;
+    width:50%;
+    border-radius: 30px;
+    padding:10px 20px;
+    margin:5px 0px;
+    border-color: #0CB0ED;
+    border-width: 2px;
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
+.btnlogin{
+    text-align: center; 
 }
 
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
+.btnlogin input{
+    
+
+    width:50%;
+    border-radius: 30px;
+    padding:10px 20px;
+    margin:5px 0px;
+    background-color: #0CB0ED;
+    color:white;
+    font-weight: bold;
+
+
 }
 
-a.logo{
-    color: rgb(255, 255, 255);
-    text-decoration: none; 
+.msg{
+    text-align:center;
 }
 
-nav > ul > li > a{
-    color: rgb(255, 255, 255);
-    display: block;
-    line-height: 2em;
-    padding: 0.5em 1em;
-    text-decoration: none;
-}
+.msg h5{
+    color:white;
 
-.logo-img{
-    position: relative;
-    margin: 10px 15px 15px 10px;
+}
+.msg a{
+    color:#0CB0ED;
 }
