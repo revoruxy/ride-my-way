@@ -1,0 +1,32 @@
+.map{
+
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+    background: url("image/map.jpg");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    border-radius:30px;
+    height: 650px;
+
+
+
+
+}
+.map1{
+    text-align: center;
+}
+.map1 input{
+    width:30%;
+    border-radius: 30px;
+    border-color: #0CB0ED;
+    margin-top:15px;
+    border-width: 2px;
+   
+    font-size: 80%;
+    
+
+
+
+}
