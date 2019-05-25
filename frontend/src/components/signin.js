@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "../image/logo.png";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 const Signin = () => {
   return (
     <div>
@@ -9,7 +10,6 @@ const Signin = () => {
           <img src={Profile} />
         </div>
         <h3>Signin</h3>
-
         <form>
           <div className="sign">
             <input type="text" placeholder="E-mail" />
