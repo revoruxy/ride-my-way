@@ -25,11 +25,13 @@ const Signup = () => {
           <input type="password" placeholder="Password" />
         </div>
         <div className="btnlogin">
-          <input type="submit" value="Signup" />
+          <Link to="/profile">
+            <input type="submit" value="Signup" />
+          </Link>
         </div>
         <div className="msg">
           <h5>
-            Already have an Account <a href="index.html">Signin</a>
+            Already have an Account <Link to="/">Signin</Link>
           </h5>
         </div>
       </form>

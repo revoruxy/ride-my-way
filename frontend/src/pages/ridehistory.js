@@ -1,10 +1,13 @@
 import React from "react";
 import Profile from "../image/logo.png";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "../css/history.css";
+import Heading from "../components/heading";
 
 const Ridehistory = () => {
   return (
-    <div>
+    <div className="background1">
+      <Heading />
       <h2>My Ride History</h2>
       <table>
         <tr>

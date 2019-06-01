@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "../image/logo.png";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "../css/style.css";
 
 const Signin = () => {
   return (
@@ -18,11 +19,13 @@ const Signin = () => {
             <input type="password" placeholder="Password" />
           </div>
           <div className="btnlogin">
-            <input type="submit" value="Login" />
+            <Link to="/profile">
+              <input type="submit" value="Login" />
+            </Link>
           </div>
           <div className="msg">
             <h5>
-              Do have an account? No: <a href="signup.html">Signup here</a>
+              Do have an account? No: <Link to="/signup">Signup here</Link>
             </h5>
           </div>
         </form>

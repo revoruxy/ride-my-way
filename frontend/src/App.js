@@ -1,19 +1,24 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Signin from "./components/signin";
-import Signup from "./components/signup";
-import Ridehistory from "./components/ridehistory";
-import Rideoffer from "./components/rideoffer";
+import { Route, Link, Switch } from "react-router-dom";
+import Signin from "./pages/signin";
+import Signup from "./pages/signup";
+import Profile from "./pages/profile";
+import Ridehistory from "./pages/ridehistory";
+import Rideoffer from "./pages/rideoffer";
+//import Profile from "./components/profile";
 
 import "./App.css";
+import Heading from "./components/heading";
 
 function App() {
   return (
-    <Route>
-      <div>
-        <Rideoffer />
-      </div>
-    </Route>
+    <Switch>
+      <Route exact path="/" component={Signin} />
+      <Route path="/profile" component={Profile} />
+      <Route path="/signup" component={Signup} />
+      <Route path="/ridehistory" component={Ridehistory} />
+      <Route path="/rideoffer" component={Rideoffer} />
+    </Switch>
   );
 }
 
